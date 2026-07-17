@@ -1,0 +1,188 @@
+@import 'tailwindcss';
+
+/* Class strategy: `.dark` on <html> flips the palette. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Semantic tokens as plain CSS variables so they can switch at runtime. The
+ * @theme inline block below maps them to Tailwind utilities (bg-app, text-ink,
+ * border-line, …) that resolve to var(), so toggling .dark re-colours instantly.
+ *
+ * Ledgerly identity: "ledger green" fintech — a deliberately warm emerald on a
+ * cool slate canvas with deep-navy ink. Distinct from Stripe's violet.
+ */
+:root {
+  --app: #f6f8fa; /* page background */
+  --card: #ffffff; /* panels, table surface */
+  --card-hover: #f0f3f7; /* row / item hover */
+  --line: #e3e8ef; /* hairline borders */
+  --line-strong: #d5dce6;
+  --ink: #0a2540; /* primary text — deep navy */
+  --ink-soft: #26374f;
+  --muted: #5b6b84; /* secondary text */
+  --faint: #93a0b5; /* tertiary / placeholder */
+  --accent: #08855b; /* emerald — primary actions, active nav, paid.
+                        Deepened from #0e9f6e so white text clears WCAG AA (4.65:1). */
+  --accent-hover: #067049;
+  --accent-fg: #ffffff; /* text on accent */
+  --accent-soft: rgba(8, 133, 91, 0.11); /* active nav pill, selected rows */
+  --shadow: rgba(10, 37, 64, 0.06);
+}
+
+.dark {
+  --app: #0a1420;
+  --card: #0f1d2e;
+  --card-hover: #17273a;
+  --line: #1e3145;
+  --line-strong: #2b4157;
+  --ink: #eaf1f8;
+  --ink-soft: #c4d2e0;
+  --muted: #8296ac;
+  --faint: #566b82;
+  --accent: #16b981;
+  --accent-hover: #34d399;
+  --accent-fg: #04140d;
+  --accent-soft: rgba(22, 185, 129, 0.15);
+  --shadow: rgba(0, 0, 0, 0.5);
+}
+
+@theme inline {
+  --color-app: var(--app);
+  --color-card: var(--card);
+  --color-card-hover: var(--card-hover);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-app text-ink font-sans antialiased;
+    font-size: 14px;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  /* Money, dates, counts read as tabular figures everywhere. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+
+  /* Visible emerald focus ring for keyboard users. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2;
+    --tw-ring-offset-color: var(--app);
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--accent) 28%, transparent);
+  }
+}
+
+@layer utilities {
+  /* Skeleton shimmer for loading states. */
+  .skeleton {
+    @apply relative overflow-hidden rounded-md;
+    background: var(--card-hover);
+  }
+  .skeleton::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklab, var(--ink) 6%, transparent),
+      transparent
+    );
+    animation: shimmer 1.5s ease-in-out infinite;
+  }
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Thin, on-theme scrollbars for scroll regions. */
+  .thin-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-strong) transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton::after {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/*
+ * Print: browser "Save as PDF" produces a genuinely professional invoice with
+ * no backend. Everything is hidden except the `.print-area` (the invoice
+ * document), which is floated to the page origin at full width. The document
+ * uses its own fixed light palette (see InvoiceDocument) so it always prints on
+ * white paper regardless of the app theme.
+ */
+@page {
+  size: A4;
+  margin: 14mm;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+  }
+  body * {
+    visibility: hidden;
+  }
+  .print-area,
+  .print-area * {
+    visibility: visible;
+  }
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

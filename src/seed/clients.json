@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cl1",
+    "name": "Ava Bennett",
+    "company": "Brightwave Media",
+    "email": "ava@brightwave.io",
+    "address": "240 Larkspur Ave\nAustin, TX 78702",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": "cl2",
+    "name": "Marcus Cole",
+    "company": "Northloop Robotics",
+    "email": "marcus@northloop.dev",
+    "address": "1100 Rialto St, Fl 6\nDenver, CO 80202",
+    "avatar": "https://i.pravatar.cc/150?img=12"
+  },
+  {
+    "id": "cl3",
+    "name": "Priya Nair",
+    "company": "Verdant Interiors",
+    "email": "priya@verdant.design",
+    "address": "58 Camden High St\nPortland, OR 97209",
+    "avatar": "https://i.pravatar.cc/150?img=32"
+  },
+  {
+    "id": "cl4",
+    "name": "Diego Ramos",
+    "company": "Solstice Coffee Co.",
+    "email": "diego@solsticecoffee.com",
+    "address": "7 Marina Blvd\nSan Diego, CA 92101",
+    "avatar": "https://i.pravatar.cc/150?img=15"
+  },
+  {
+    "id": "cl5",
+    "name": "Hannah Frost",
+    "company": "Frostline Apparel",
+    "email": "hannah@frostline.co",
+    "address": "19 Birchwood Ln\nMinneapolis, MN 55401",
+    "avatar": "https://i.pravatar.cc/150?img=45"
+  },
+  {
+    "id": "cl6",
+    "name": "Leo Whitfield",
+    "company": "Whitfield & Grey Law",
+    "email": "leo@whitfieldgrey.com",
+    "address": "400 Court Sq, Suite 22\nRichmond, VA 23219",
+    "avatar": "https://i.pravatar.cc/150?img=60"
+  },
+  {
+    "id": "cl7",
+    "name": "Sara Okafor",
+    "company": "Pulse Fitness Group",
+    "email": "sara@pulsefit.com",
+    "address": "88 Harbor Point\nMiami, FL 33131",
+    "avatar": "https://i.pravatar.cc/150?img=20"
+  },
+  {
+    "id": "cl8",
+    "name": "Tomás Herrera",
+    "company": "Cedar & Stone Build",
+    "email": "tomas@cedarstone.build",
+    "address": "512 Foundry Rd\nNashville, TN 37203",
+    "avatar": "https://i.pravatar.cc/150?img=51"
+  },
+  {
+    "id": "cl9",
+    "name": "Nadia Haddad",
+    "company": "Lumen Health Labs",
+    "email": "nadia@lumenlabs.io",
+    "address": "3 Beacon Way\nBoston, MA 02108",
+    "avatar": "https://i.pravatar.cc/150?img=26"
+  },
+  {
+    "id": "cl10",
+    "name": "Owen Clarke",
+    "company": "Trailhead Outdoors",
+    "email": "owen@trailhead.co",
+    "address": "210 Ridgeway Dr\nBoulder, CO 80301",
+    "avatar": "https://i.pravatar.cc/150?img=68"
+  },
+  {
+    "id": "cl11",
+    "name": "Mei Tanaka",
+    "company": "Origami Studio",
+    "email": "mei@origami.studio",
+    "address": "61 Kite St\nSeattle, WA 98109",
+    "avatar": "https://i.pravatar.cc/150?img=44"
+  },
+  {
+    "id": "cl12",
+    "name": "Isabel Moreno",
+    "company": "Saffron Kitchen",
+    "email": "isabel@saffronkitchen.com",
+    "address": "9 Vine Terrace\nCharleston, SC 29401",
+    "avatar": "https://i.pravatar.cc/150?img=9"
+  }
+]

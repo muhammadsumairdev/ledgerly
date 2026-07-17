@@ -1,0 +1,884 @@
+[
+  {
+    "id": "inv1",
+    "number": "LED-0001",
+    "clientId": "cl3",
+    "issueDate": "2026-02-01",
+    "dueDate": "2026-03-03",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_e2l7lp",
+        "description": "Copywriting",
+        "qty": 3,
+        "rate": 555,
+        "taxable": true
+      },
+      {
+        "id": "li_a0rzk2",
+        "description": "Brand identity design",
+        "qty": 3,
+        "rate": 2485,
+        "taxable": true
+      },
+      {
+        "id": "li_6tz7zk",
+        "description": "SEO audit",
+        "qty": 1,
+        "rate": 1411,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 0,
+    "paidAt": "2026-02-26T12:00:00.000Z",
+    "notes": "Payment appreciated within terms. Questions? Just reply to this email.",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-02-01T09:00:00.000Z"
+  },
+  {
+    "id": "inv2",
+    "number": "LED-0002",
+    "clientId": "cl2",
+    "issueDate": "2026-02-02",
+    "dueDate": "2026-03-19",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_6059yq",
+        "description": "Copywriting",
+        "qty": 2,
+        "rate": 451,
+        "taxable": true
+      },
+      {
+        "id": "li_bczfs",
+        "description": "Brand identity design",
+        "qty": 2,
+        "rate": 1474,
+        "taxable": true
+      },
+      {
+        "id": "li_ci50av",
+        "description": "SEO audit",
+        "qty": 2,
+        "rate": 904,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 15,
+    "paidAt": "2026-03-02T12:00:00.000Z",
+    "notes": "Thank you for your business!",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-02-02T09:00:00.000Z"
+  },
+  {
+    "id": "inv3",
+    "number": "LED-0003",
+    "clientId": "cl11",
+    "issueDate": "2026-02-04",
+    "dueDate": "2026-03-21",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_f76b",
+        "description": "Website design (per page)",
+        "qty": 1,
+        "rate": 503,
+        "taxable": true
+      },
+      {
+        "id": "li_buuwlv",
+        "description": "UX research session",
+        "qty": 4,
+        "rate": 677,
+        "taxable": true
+      },
+      {
+        "id": "li_aggx6a",
+        "description": "Copywriting",
+        "qty": 2,
+        "rate": 627,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 0,
+    "paidAt": "2026-02-17T12:00:00.000Z",
+    "notes": "Payment appreciated within terms. Questions? Just reply to this email.",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-02-04T09:00:00.000Z"
+  },
+  {
+    "id": "inv4",
+    "number": "LED-0004",
+    "clientId": "cl1",
+    "issueDate": "2026-02-22",
+    "dueDate": "2026-03-09",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_5eq02o",
+        "description": "SEO audit",
+        "qty": 4,
+        "rate": 1245,
+        "taxable": true
+      },
+      {
+        "id": "li_81rrpl",
+        "description": "Marketing consultation",
+        "qty": 12,
+        "rate": 194,
+        "taxable": false
+      },
+      {
+        "id": "li_1zke7x",
+        "description": "Logo & mark exploration",
+        "qty": 4,
+        "rate": 1617,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": "2026-03-21T12:00:00.000Z",
+    "notes": "Please reference the invoice number with your payment.",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-02-22T09:00:00.000Z"
+  },
+  {
+    "id": "inv5",
+    "number": "LED-0005",
+    "clientId": "cl9",
+    "issueDate": "2026-03-21",
+    "dueDate": "2026-05-05",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_6qahzu",
+        "description": "Marketing consultation",
+        "qty": 27,
+        "rate": 167,
+        "taxable": true
+      },
+      {
+        "id": "li_3a7iz2",
+        "description": "Copywriting",
+        "qty": 1,
+        "rate": 565,
+        "taxable": true
+      },
+      {
+        "id": "li_zkghp",
+        "description": "SEO audit",
+        "qty": 2,
+        "rate": 1268,
+        "taxable": true
+      },
+      {
+        "id": "li_5f6dk6",
+        "description": "Front-end development",
+        "qty": 36,
+        "rate": 105,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": "2026-04-18T12:00:00.000Z",
+    "notes": "Thank you for your business!",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-03-21T09:00:00.000Z"
+  },
+  {
+    "id": "inv6",
+    "number": "LED-0006",
+    "clientId": "cl11",
+    "issueDate": "2026-03-25",
+    "dueDate": "2026-04-09",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_5s5agp",
+        "description": "Photography day rate",
+        "qty": 4,
+        "rate": 1445,
+        "taxable": true
+      },
+      {
+        "id": "li_2sthlg",
+        "description": "Illustration set",
+        "qty": 2,
+        "rate": 773,
+        "taxable": true
+      },
+      {
+        "id": "li_56fyu4",
+        "description": "Front-end development",
+        "qty": 18,
+        "rate": 94,
+        "taxable": true
+      },
+      {
+        "id": "li_368vzx",
+        "description": "Marketing consultation",
+        "qty": 28,
+        "rate": 165,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 0,
+    "paidAt": "2026-04-16T12:00:00.000Z",
+    "notes": "",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-03-25T09:00:00.000Z"
+  },
+  {
+    "id": "inv7",
+    "number": "LED-0007",
+    "clientId": "cl10",
+    "issueDate": "2026-03-30",
+    "dueDate": "2026-04-29",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_e7j3gn",
+        "description": "Illustration set",
+        "qty": 2,
+        "rate": 683,
+        "taxable": true
+      },
+      {
+        "id": "li_9qnh42",
+        "description": "Website design (per page)",
+        "qty": 3,
+        "rate": 543,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 5,
+    "paidAt": "2026-04-22T12:00:00.000Z",
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-03-30T09:00:00.000Z"
+  },
+  {
+    "id": "inv8",
+    "number": "LED-0008",
+    "clientId": "cl7",
+    "issueDate": "2026-04-23",
+    "dueDate": "2026-05-23",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_54le52",
+        "description": "Copywriting",
+        "qty": 3,
+        "rate": 373,
+        "taxable": true
+      },
+      {
+        "id": "li_1gtb5g",
+        "description": "Photography day rate",
+        "qty": 2,
+        "rate": 1635,
+        "taxable": true
+      },
+      {
+        "id": "li_949365",
+        "description": "Brand identity design",
+        "qty": 4,
+        "rate": 2626,
+        "taxable": false
+      },
+      {
+        "id": "li_avrsul",
+        "description": "UX research session",
+        "qty": 1,
+        "rate": 1075,
+        "taxable": true
+      }
+    ],
+    "discount": 250,
+    "taxRate": 5,
+    "paidAt": "2026-05-02T12:00:00.000Z",
+    "notes": "Thank you for your business!",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-04-23T09:00:00.000Z"
+  },
+  {
+    "id": "inv9",
+    "number": "LED-0009",
+    "clientId": "cl10",
+    "issueDate": "2026-04-28",
+    "dueDate": "2026-05-28",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_fkiwf3",
+        "description": "Front-end development",
+        "qty": 28,
+        "rate": 119,
+        "taxable": false
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": null,
+    "notes": "Thank you for your business!",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-04-28T09:00:00.000Z"
+  },
+  {
+    "id": "inv10",
+    "number": "LED-0010",
+    "clientId": "cl8",
+    "issueDate": "2026-05-03",
+    "dueDate": "2026-05-18",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_5sulsr",
+        "description": "Front-end development",
+        "qty": 27,
+        "rate": 97,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 15,
+    "paidAt": null,
+    "notes": "Thank you for your business!",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-05-03T09:00:00.000Z"
+  },
+  {
+    "id": "inv11",
+    "number": "LED-0011",
+    "clientId": "cl7",
+    "issueDate": "2026-05-05",
+    "dueDate": "2026-06-04",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_1erxf4",
+        "description": "Monthly retainer",
+        "qty": 2,
+        "rate": 3641,
+        "taxable": true
+      },
+      {
+        "id": "li_601llt",
+        "description": "UX research session",
+        "qty": 1,
+        "rate": 838,
+        "taxable": true
+      },
+      {
+        "id": "li_1qyx37",
+        "description": "Logo & mark exploration",
+        "qty": 2,
+        "rate": 1302,
+        "taxable": true
+      }
+    ],
+    "discount": 50,
+    "taxRate": 8,
+    "paidAt": "2026-05-25T12:00:00.000Z",
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-05-05T09:00:00.000Z"
+  },
+  {
+    "id": "inv12",
+    "number": "LED-0012",
+    "clientId": "cl5",
+    "issueDate": "2026-05-07",
+    "dueDate": "2026-05-22",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_7h6aba",
+        "description": "Print production",
+        "qty": 2,
+        "rate": 282,
+        "taxable": false
+      },
+      {
+        "id": "li_fsok1c",
+        "description": "Illustration set",
+        "qty": 3,
+        "rate": 1089,
+        "taxable": true
+      },
+      {
+        "id": "li_abqva4",
+        "description": "SEO audit",
+        "qty": 3,
+        "rate": 1444,
+        "taxable": true
+      },
+      {
+        "id": "li_clreze",
+        "description": "Front-end development",
+        "qty": 33,
+        "rate": 94,
+        "taxable": true
+      }
+    ],
+    "discount": 250,
+    "taxRate": 8,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-05-07T09:00:00.000Z"
+  },
+  {
+    "id": "inv13",
+    "number": "LED-0013",
+    "clientId": "cl7",
+    "issueDate": "2026-05-18",
+    "dueDate": "2026-06-02",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_aolxx6",
+        "description": "Print production",
+        "qty": 2,
+        "rate": 333,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 15,
+    "paidAt": "2026-06-06T12:00:00.000Z",
+    "notes": "Payment appreciated within terms. Questions? Just reply to this email.",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-05-18T09:00:00.000Z"
+  },
+  {
+    "id": "inv14",
+    "number": "LED-0014",
+    "clientId": "cl11",
+    "issueDate": "2026-05-20",
+    "dueDate": "2026-06-04",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_5l5czy",
+        "description": "Marketing consultation",
+        "qty": 32,
+        "rate": 219,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": "2026-06-17T12:00:00.000Z",
+    "notes": "Please reference the invoice number with your payment.",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-05-20T09:00:00.000Z"
+  },
+  {
+    "id": "inv15",
+    "number": "LED-0015",
+    "clientId": "cl4",
+    "issueDate": "2026-05-23",
+    "dueDate": "2026-07-07",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_6p7m0",
+        "description": "SEO audit",
+        "qty": 2,
+        "rate": 1053,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": "2026-06-13T12:00:00.000Z",
+    "notes": "Thank you for your business!",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-05-23T09:00:00.000Z"
+  },
+  {
+    "id": "inv16",
+    "number": "LED-0016",
+    "clientId": "cl6",
+    "issueDate": "2026-06-01",
+    "dueDate": "2026-07-01",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_a9ira4",
+        "description": "SEO audit",
+        "qty": 4,
+        "rate": 1467,
+        "taxable": true
+      },
+      {
+        "id": "li_efee61",
+        "description": "Illustration set",
+        "qty": 3,
+        "rate": 953,
+        "taxable": true
+      },
+      {
+        "id": "li_fleod7",
+        "description": "Monthly retainer",
+        "qty": 1,
+        "rate": 4340,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 15,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-06-01T09:00:00.000Z"
+  },
+  {
+    "id": "inv17",
+    "number": "LED-0017",
+    "clientId": "cl8",
+    "issueDate": "2026-06-14",
+    "dueDate": "2026-07-14",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_5kxygh",
+        "description": "Print production",
+        "qty": 4,
+        "rate": 295,
+        "taxable": false
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": "2026-07-10T12:00:00.000Z",
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-06-14T09:00:00.000Z"
+  },
+  {
+    "id": "inv18",
+    "number": "LED-0018",
+    "clientId": "cl4",
+    "issueDate": "2026-07-03",
+    "dueDate": "2026-08-17",
+    "status": "paid",
+    "lineItems": [
+      {
+        "id": "li_76hcm0",
+        "description": "Website design (per page)",
+        "qty": 4,
+        "rate": 788,
+        "taxable": true
+      },
+      {
+        "id": "li_f2ihbg",
+        "description": "Marketing consultation",
+        "qty": 30,
+        "rate": 181,
+        "taxable": true
+      },
+      {
+        "id": "li_9r9uzh",
+        "description": "Logo & mark exploration",
+        "qty": 3,
+        "rate": 1499,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 0,
+    "paidAt": "2026-07-12T12:00:00.000Z",
+    "notes": "",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-07-03T09:00:00.000Z"
+  },
+  {
+    "id": "inv19",
+    "number": "LED-0019",
+    "clientId": "cl12",
+    "issueDate": "2026-07-06",
+    "dueDate": "2026-08-05",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_cg6cus",
+        "description": "Brand identity design",
+        "qty": 1,
+        "rate": 3112,
+        "taxable": true
+      },
+      {
+        "id": "li_egpcrm",
+        "description": "SEO audit",
+        "qty": 1,
+        "rate": 1097,
+        "taxable": true
+      }
+    ],
+    "discount": 150,
+    "taxRate": 8,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-07-06T09:00:00.000Z"
+  },
+  {
+    "id": "inv20",
+    "number": "LED-0020",
+    "clientId": "cl5",
+    "issueDate": "2026-07-09",
+    "dueDate": "2026-08-23",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_5a60or",
+        "description": "Website design (per page)",
+        "qty": 1,
+        "rate": 488,
+        "taxable": true
+      },
+      {
+        "id": "li_b7i9ir",
+        "description": "Front-end development",
+        "qty": 32,
+        "rate": 95,
+        "taxable": true
+      }
+    ],
+    "discount": 100,
+    "taxRate": 5,
+    "paidAt": null,
+    "notes": "Payment appreciated within terms. Questions? Just reply to this email.",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-07-09T09:00:00.000Z"
+  },
+  {
+    "id": "inv21",
+    "number": "LED-0021",
+    "clientId": "cl7",
+    "issueDate": "2026-07-09",
+    "dueDate": "2026-08-23",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_asgiqa",
+        "description": "Copywriting",
+        "qty": 4,
+        "rate": 332,
+        "taxable": true
+      }
+    ],
+    "discount": 150,
+    "taxRate": 8,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-07-09T09:00:00.000Z"
+  },
+  {
+    "id": "inv22",
+    "number": "LED-0022",
+    "clientId": "cl4",
+    "issueDate": "2026-07-11",
+    "dueDate": "2026-08-25",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_e4blwh",
+        "description": "Illustration set",
+        "qty": 1,
+        "rate": 1226,
+        "taxable": true
+      }
+    ],
+    "discount": 150,
+    "taxRate": 0,
+    "paidAt": null,
+    "notes": "Payment appreciated within terms. Questions? Just reply to this email.",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-07-11T09:00:00.000Z"
+  },
+  {
+    "id": "inv23",
+    "number": "LED-0023",
+    "clientId": "cl5",
+    "issueDate": "2026-07-11",
+    "dueDate": "2026-08-10",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_g3nhw6",
+        "description": "UX research session",
+        "qty": 3,
+        "rate": 887,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 15,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-07-11T09:00:00.000Z"
+  },
+  {
+    "id": "inv24",
+    "number": "LED-0024",
+    "clientId": "cl11",
+    "issueDate": "2026-07-11",
+    "dueDate": "2026-08-10",
+    "status": "draft",
+    "lineItems": [
+      {
+        "id": "li_5n0ry",
+        "description": "Website design (per page)",
+        "qty": 2,
+        "rate": 861,
+        "taxable": true
+      },
+      {
+        "id": "li_eo7z4v",
+        "description": "SEO audit",
+        "qty": 3,
+        "rate": 1293,
+        "taxable": true
+      },
+      {
+        "id": "li_bf75gj",
+        "description": "Logo & mark exploration",
+        "qty": 3,
+        "rate": 1282,
+        "taxable": true
+      },
+      {
+        "id": "li_7eyn4u",
+        "description": "Marketing consultation",
+        "qty": 19,
+        "rate": 163,
+        "taxable": true
+      }
+    ],
+    "discount": 100,
+    "taxRate": 8,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-07-11T09:00:00.000Z"
+  },
+  {
+    "id": "inv25",
+    "number": "LED-0025",
+    "clientId": "cl1",
+    "issueDate": "2026-07-13",
+    "dueDate": "2026-08-12",
+    "status": "sent",
+    "lineItems": [
+      {
+        "id": "li_59ak4i",
+        "description": "Monthly retainer",
+        "qty": 4,
+        "rate": 3430,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 8,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-07-13T09:00:00.000Z"
+  },
+  {
+    "id": "inv26",
+    "number": "LED-0026",
+    "clientId": "cl12",
+    "issueDate": "2026-07-15",
+    "dueDate": "2026-08-29",
+    "status": "draft",
+    "lineItems": [
+      {
+        "id": "li_fp9vy2",
+        "description": "Print production",
+        "qty": 2,
+        "rate": 562,
+        "taxable": true
+      },
+      {
+        "id": "li_7ruzmp",
+        "description": "Brand identity design",
+        "qty": 1,
+        "rate": 1941,
+        "taxable": true
+      },
+      {
+        "id": "li_ac5s5u",
+        "description": "Copywriting",
+        "qty": 1,
+        "rate": 619,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 5,
+    "paidAt": null,
+    "notes": "Thank you for your business!",
+    "terms": "Net 45 — bank transfer or card",
+    "createdAt": "2026-07-15T09:00:00.000Z"
+  },
+  {
+    "id": "inv27",
+    "number": "LED-0027",
+    "clientId": "cl9",
+    "issueDate": "2026-07-15",
+    "dueDate": "2026-07-30",
+    "status": "draft",
+    "lineItems": [
+      {
+        "id": "li_7dmw2r",
+        "description": "UX research session",
+        "qty": 4,
+        "rate": 812,
+        "taxable": false
+      }
+    ],
+    "discount": 0,
+    "taxRate": 15,
+    "paidAt": null,
+    "notes": "Payment appreciated within terms. Questions? Just reply to this email.",
+    "terms": "Net 15 — bank transfer or card",
+    "createdAt": "2026-07-15T09:00:00.000Z"
+  },
+  {
+    "id": "inv28",
+    "number": "LED-0028",
+    "clientId": "cl8",
+    "issueDate": "2026-07-16",
+    "dueDate": "2026-08-15",
+    "status": "draft",
+    "lineItems": [
+      {
+        "id": "li_9snpmp",
+        "description": "Copywriting",
+        "qty": 2,
+        "rate": 691,
+        "taxable": true
+      }
+    ],
+    "discount": 0,
+    "taxRate": 5,
+    "paidAt": null,
+    "notes": "",
+    "terms": "Net 30 — bank transfer or card",
+    "createdAt": "2026-07-16T09:00:00.000Z"
+  }
+]

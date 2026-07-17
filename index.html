@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0E9F6E" />
+
+    <title>Ledgerly — Invoicing &amp; billing for small teams</title>
+    <meta
+      name="description"
+      content="Ledgerly is a crisp invoicing tool: build invoices in a live two-pane editor, track paid, sent and overdue at a glance, and print a professional PDF straight from the browser — no backend."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ledgerly — Invoicing &amp; billing for small teams" />
+    <meta
+      property="og:description"
+      content="Build invoices in a live two-pane editor, track outstanding and overdue balances, record payments, and print a professional PDF — all in the browser."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&h=630&q=80"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Load fonts without blocking first paint; text shows in the fallback
+         (display=swap) then swaps to Inter. -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
+
+    <!-- Apply persisted theme before paint to avoid a flash. -->
+    <script>
+      try {
+        var raw = localStorage.getItem('ledgerly.v1.theme')
+        var mode = raw ? JSON.parse(raw).state.mode : 'system'
+        var dark =
+          mode === 'dark' ||
+          (mode === 'system' &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.classList.toggle('dark', dark)
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

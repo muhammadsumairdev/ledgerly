@@ -1,0 +1,12 @@
+{
+  "id": "settings",
+  "businessName": "Northwind Studio",
+  "addressLine": "128 Harbor View Rd, Suite 4\nSeattle, WA 98104",
+  "email": "billing@northwindstudio.com",
+  "phone": "+1 (206) 555-0148",
+  "logo": null,
+  "prefix": "LED",
+  "nextNumber": 29,
+  "currency": "USD",
+  "defaultTaxRate": 8
+}
